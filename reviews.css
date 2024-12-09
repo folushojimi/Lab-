@@ -1,0 +1,95 @@
+.container {
+    width: 70%;
+}
+
+fieldset {
+    padding: 10px;
+}
+
+.reviewOptions {
+    margin-bottom: 10px;
+}
+
+.rating label {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+textarea {
+    /* display: block;
+    margin-left: 10px; */
+}
+
+.other label {
+    display: block;
+}
+
+.tripArea label {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.other {
+    display: inline-flex;
+    gap: 5px;
+}
+
+select {
+    width: 10%;
+    outline: none;
+}
+
+.aboutYou label {
+    /* display: block; */
+    margin-top: 10px;
+}
+
+/* .aboutYou input {
+    padding: 5px;
+    outline: none;
+    background-color: #B6D4CE;
+    border: none;
+}  */
+
+
+
+/* .user-info{
+    display: flex;
+} */
+
+
+.user-info label {
+    display: block;
+    margin-top: 10px;
+}
+
+
+.user-info input{
+    padding: 5px;
+    outline: none;
+    background-color: #B6D4CE;
+    border: none;
+}
+
+.result{
+ }
+
+.result img{
+    width:100%;
+     
+}
+
+ 
+
+
+
+button {
+    background-color: #B6D4CE;
+    padding: 5px 20px;
+    text-align: center;
+    margin-top: 10px;
+    border: none;
+}
+
+
+

@@ -1,0 +1,74 @@
+
+    /* body {
+        color: black;
+    }
+   table, th, td {
+        border: 0;  
+    }
+
+ caption {
+        text-align: center !important;
+    }
+
+    nav ,hr, footer{
+        display: none;
+    }  */
+
+
+       @media print {
+        body {
+            color: black;
+        }
+        
+
+        .secondTable table,
+        th,
+        td {
+            border: none;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+
+    
+        caption {
+            text-align: center !important;
+        }
+    
+        nav ,hr, footer{
+            display: none;
+        } 
+
+
+        .upperText::after {
+                content: "Schedule is subject to change.";
+        }
+
+        .lastContent{
+            display: none;
+        }
+
+
+/* FOR REVIEWS */
+
+ .user-info{
+    display: flex;
+}
+
+.aboutYou input {
+    padding: 20px;
+    outline: none;
+    background-color:red;
+    border: none;
+} 
+
+.break{
+    display: none;
+}
+
+.result img{
+    width:60%; 
+}
+
+ }
+

@@ -1,0 +1,103 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+
+header{
+    background-color: #B6D4CE;
+    text-align:center;
+    padding: 10px;
+}
+nav ul ,li {
+	display:flex;
+	justify-content: space-between;
+    gap: 10px;
+}
+ a {
+background-color: #B6D4CE;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border:1px solid black;
+  margin-top: 10px;
+ border-radius: 10px 0 10px 0;
+}
+
+hr {
+    border: 1px solid black;
+}
+footer  {
+   display: flex;
+   justify-content: center;
+}
+
+/* ALL TABLE STYLES */
+
+.upperText{
+    text-align: center;
+}
+ 
+        .legend td {
+            border: 1px solid white;
+            background-color:white;
+        }
+
+        .legend {
+            margin: 30px 0 20px -40%;
+        }
+
+        .legend caption {
+            text-align: start;
+        }
+
+        .legendTable {
+            display: flex;
+        }
+
+        .colorBox {
+            height: 20px;
+            width: 10px;
+        }
+
+        .south {
+            background-color: #5993C7;
+        }
+
+        .north {
+            background-color: #B6D4CE;
+        }
+
+        .asia {
+            background-color: #A19372;
+        }
+
+        .africa {
+            background-color: #F4AF60;
+        }
+
+        .empty {
+            background-color: white;
+        }
+
+        .secondTable table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        .secondTable th,
+        td {
+            background-color: #72B57D;
+        }
+
+        .image {
+            background-image: url(images/dust.jpg);
+            text-align: center;
+        }
+
+        span {
+            margin-left: 67%;
+        }
+    
